@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N.A</title>
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .form-label {
+          margin-bottom: 0.5rem;
+          font-size: 0.875rem;
+          font-weight: 500;
+          color: #374151;
+      }
+  </style>
+
+</head>
+<body>
+    <div class="bg-black p-5 fixed-top">
+      <p class="text-white cursor-pointer">Necmettin Alver</p>
+    </div>
+    <div class="flex justify-center items-center min-h-screen">
+      <form action="/output_template" method="post" enctype="multipart/form-data" class="max-w-lg mx-auto ">
+        <!-- <div>   -->
+          <label for="img_file" class="form-label">Dosya Seçiniz:</label>
+          <input type="file" name="logo" accept="image/*" id="img_file"  class=" w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50"/>
+        <!-- </div> -->
+        <!-- <div> -->
+          <label for="hex" class="form-label">Hex</label>
+          <input type="text" id="hex" name="hex" class=" w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md"/>
+        <!-- </div> -->
+        <!-- <div> -->
+            <label for="punchline_text" class="form-label">punchline_text</label>
+            <input type="text" id="punchline_text" name="punchline_text" class=" w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md"/>
+          <!-- </div> -->
+        <!-- <div> -->
+            <label for="button_text" class="form-label">button_text</label>
+            <input type="text" id="button_text" name="button_text" class=" w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md"/>
+          <!-- </div> -->
+        <button type="submit" class="text-white bg-green-700 hover:bg-green-800 font-medium rounded-full text-sm px-5 py-2.5 text-center mt-2">
+          Create Template
+        </button>
+      </form>
+    </div>
+
+</body>
+</html>

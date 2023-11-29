@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+Pillow
+numpy
+joblib
+pandas
+scikit-learn
+torch
+diffusers
+jinja2
+transformers
+accelerate
+python-multipart
