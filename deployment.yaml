@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: create-ad-template-with-ai
+  labels:
+    app: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: creater
+          image: necmettinalverr/myapp:1.0
+          ports:
+            - containerPort: 8000
+          resources:
+            limits:
+              memory: "20Gi"
+              cpu: "7500m"
+              ephemeral-storage: "20Gi"
+            requests:
+              memory: "20Gi"
+              cpu: "7500m"
+              ephemeral-storage: "20Gi"
