@@ -28,8 +28,10 @@ Experience the fusion of Stable Diffusion's creative prowess and FastAPI's rapid
 
 ## should you wish to observe the production phase, feel free to visit my [Linkedin post](https://www.linkedin.com/feed/update/urn:li:activity:7138486376022405121/). Sample outputs have been provided to showcase the project's capabilities. These are sample template outputs:
 
-![outout1](https://github.com/necmettinalver/ad-template-with-ai/blob/master/helper/createds/Images4readme/st4.png)
+![process1](https://github.com/necmettinalver/create-ad-template-with-ai/blob/main/app/outputs/Images4readme/st3.png)
+
+![outout1](https://github.com/necmettinalver/create-ad-template-with-ai/blob/main/app/outputs/Images4readme/st4.png)
 
 ##These are sample only created outputs (blue coffee)
 
-![outout1](https://github.com/necmettinalver/ad-template-with-ai/blob/master/helper/createds/image_created1.jpg)
+![outout1](https://github.com/necmettinalver/create-ad-template-with-ai/blob/main/app/outputs/Images4readme/image_created.jpg)
