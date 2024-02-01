@@ -32,6 +32,6 @@ Experience the fusion of Stable Diffusion's creative prowess and FastAPI's rapid
 
 ![outout1](https://github.com/necmettinalver/create-ad-template-with-ai/blob/main/app/outputs/Images4readme/st4.png)
 
-##These are sample only created outputs (blue coffee)
+##These are sample only created outputs (colorfull coffees)
 
 ![outout1](https://github.com/necmettinalver/create-ad-template-with-ai/blob/main/app/outputs/Images4readme/image_created.jpg)
